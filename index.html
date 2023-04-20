@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<input type="text" class="display" id="display">
+		<button class="button" onclick="clearDisplay()">C</button>
+		<button class="button" onclick="deleteDigit()">CE</button>
+		<button class="button" onclick="appendSymbol('%')">%</button>
+		<button class="button operation" onclick="appendSymbol('/')">/</button>
+		<button class="button" onclick="appendSymbol('7')">7</button>
+		<button class="button" onclick="appendSymbol('8')">8</button>
+		<button class="button" onclick="appendSymbol('9')">9</button>
+		<button class="button operation" onclick="appendSymbol('*')">*</button>
+		<button class="button" onclick="appendSymbol('4')">4</button>
+		<button class="button" onclick="appendSymbol('5')">5</button>
+		<button class="button" onclick="appendSymbol('6')">6</button>
+		<button class="button operation" onclick="appendSymbol('-')">-</button>
+		<button class="button" onclick="appendSymbol('1')">1</button>
+		<button class="button" onclick="appendSymbol('2')">2</button>
+		<button class="button" onclick="appendSymbol('3')">3</button>
+		<button class="button operation" onclick="appendSymbol('+')">+</button>
+		<button class="button" onclick="appendSymbol('0')">0</button>
+		<button class="button" onclick="appendSymbol('.')">.</button>
+		<button class="button equals" onclick="calculate()">=</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
